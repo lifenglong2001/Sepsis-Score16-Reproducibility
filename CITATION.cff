@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article (see 'preferred-citation')."
+
+title: "Sepsis Score16: reproducibility code for a fixed 16-Hallmark adult sepsis transcriptomic score"
+
+authors:
+  - family-names: "Li"
+    given-names: "Fenglong"
+    affiliation: "Department of Cardiovascular Surgery, General Hospital of Western Theater Command, College of Medicine, Southwest Jiaotong University, Chengdu 610031, Sichuan, China"
+  - family-names: "Zong"
+    given-names: "Zhen"
+    affiliation: "Department of Cardiovascular Surgery, General Hospital of Western Theater Command, College of Medicine, Southwest Jiaotong University, Chengdu 610031, Sichuan, China"
+  - family-names: "Fu"
+    given-names: "Weijie"
+    affiliation: "Department of Cardiovascular Surgery, General Hospital of Western Theater Command, College of Medicine, Southwest Jiaotong University, Chengdu 610031, Sichuan, China"
+  - family-names: "Zhang"
+    given-names: "Lu"
+    affiliation: "Department of Cardiovascular Surgery, General Hospital of Western Theater Command, College of Medicine, Southwest Jiaotong University, Chengdu 610031, Sichuan, China"
+  - family-names: "Xin"
+    given-names: "Mei"
+    affiliation: "Department of Cardiovascular Surgery, General Hospital of Western Theater Command, College of Medicine, Southwest Jiaotong University, Chengdu 610031, Sichuan, China"
+  - family-names: "He"
+    given-names: "Siyi"
+    affiliation: "Department of Cardiovascular Surgery, General Hospital of Western Theater Command, College of Medicine, Southwest Jiaotong University, Chengdu 610031, Sichuan, China"
+  - family-names: "Yang"
+    given-names: "Ke"
+    affiliation: "Department of Cardiovascular Surgery, General Hospital of Western Theater Command, College of Medicine, Southwest Jiaotong University, Chengdu 610031, Sichuan, China"
+
+keywords:
+  - sepsis
+  - transcriptomics
+  - gene expression
+  - Hallmark pathways
+  - reproducibility
+
+abstract: >
+  Code, frozen comparison targets and figure renderers for a fixed 16-member Hallmark
+  transcriptomic score (Score16) evaluated in four adult sepsis discovery cohorts and three
+  external adult cohorts. The package recomputes the analysis stages from patient- and
+  donor-level processed inputs; raw-data preprocessing is an external prerequisite.
+
+preferred-citation:
+  type: article
+  title: "A blood transcriptomic pathway signature associated with mortality in sepsis"

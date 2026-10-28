@@ -1,0 +1,68 @@
+# --- local inputs and outputs (never commit) ---
+data/*
+!data/README.md
+inputs/
+input/
+INPUT_ROOT/
+*_run/
+OUT_*/
+output/
+results/
+logs/
+*.rds
+*.RDS
+*.csv.gz
+*.tsv.gz
+*.gmt
+*.soft.gz
+*.CEL
+*.cel
+*.idat
+*.fastq
+*.fq
+*.bam
+*.bai
+*.sdrf.txt
+
+# --- local config with real paths ---
+config/config.local.json
+config/*.local.json
+effective_config.json
+
+# --- credentials / environment ---
+.Renviron
+.Rprofile
+.env
+*.pem
+*.key
+*.p12
+id_rsa*
+.netrc
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+
+# --- R / Python build artefacts ---
+renv/library/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- figure render scratch ---
+*_render_QC.json
+*.pdf
+*.png
+*.svg
+*.tiff
+# ... but the bundled figure *source data* and scripts stay tracked
+!figures/**/*.py
+!figures/**/*.csv
+!figures/**/*.md
