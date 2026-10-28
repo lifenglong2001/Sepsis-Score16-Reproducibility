@@ -1,0 +1,7 @@
+Observed environment, not a dependency lock or automatic installer.
+R 4.5.1, Windows x86_64; see R packages snapshot.tsv for observed package versions and RUNTIME.md for
+the packages each stage loads.
+PowerShell 5.1 or later for scripts/run release.ps1.
+Figure renderers only: Python 3.12 with NumPy, pandas, Matplotlib and the Arial font.
+GSVA must be exactly 2.4.9; the code asserts this and refuses to run otherwise.
+No package was installed or upgraded while this package was assembled.
