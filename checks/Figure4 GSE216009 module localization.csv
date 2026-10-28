@@ -1,0 +1,2 @@
+﻿cohort,definition,n_pairs,effect,median_difference,CI_low,CI_high,P,min_cells_rule,annotation_independence
+"GSE216009","granulopoiesis5",17,"median paired within-sample-rank-module difference immature minus mature",0.696020748425343,0.554716561689515,0.730952204520193,0.00038470759403593,"existingpseudoaggregates>=50 thenpairedAcuteSepsis","existingmaturityannotations;notblindednewvalidation"

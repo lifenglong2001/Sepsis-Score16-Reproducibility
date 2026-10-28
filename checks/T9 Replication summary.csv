@@ -1,0 +1,3 @@
+"contrast","predefined_targets","same_direction","same_direction_supported","supported_lineages"
+"Sepsis vs ICU non-sepsis",25,10,0,0
+"Sepsis vs Healthy",25,19,14,4

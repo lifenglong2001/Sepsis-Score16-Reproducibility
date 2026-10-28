@@ -1,0 +1,2 @@
+axis,group,analysis,omitted,k,n,deaths,pooled_logOR,pooled_SE,OR,CI_low,CI_high,P,I2,tau2,Q,PI_low,PI_high,method,members
+Score16_cell_cycle_collapsed,discovery,cell_cycle_collapsed,none,4,1105,254,0.491905967207678,0.0621736056774929,1.63543032789426,1.341839998831,1.9932572882955,0.0042093335783012,0,0,2.01493258823517,1.341839998831,1.9932572882955,"REML-HKSJ; metafor::rma.uni(test=knha), default PI",GSE272769;GSE65682;GSE185263;GSE236713
