@@ -172,8 +172,10 @@ P values are adjusted within defined testing families using Benjamini–Hochberg
 
 ## 8. Licence and citation
 
-**Licence: not yet chosen.** No reuse right is granted by this repository until the authors add a
-licence file. Do not redistribute.
+The code in this repository is licensed under the [MIT License](LICENSE).
+Copyright (c) 2026 lifenglong.
+
+Third-party datasets and resources remain subject to their original terms; see `DATA_ACCESS.md`.
 
 `CITATION.cff` lists the manuscript authors. ORCID iDs, version, release date and DOI will be added
 when they exist.
