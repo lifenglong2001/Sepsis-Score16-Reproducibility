@@ -1,0 +1,5 @@
+﻿cohort,analysis,n,n_class0,n_class1,AUC,AUC_CI_low,AUC_CI_high,auc_direction,bootstrap_resamples,bootstrap_unit,task
+GSE236713,Diagnostic model OOF -> diagnosis,162,38,124,0.898769100169779,0.847840619694397,0.944593590831918,Higher score predicts class 1,2000,patient,Diagnosis
+GSE63042,Diagnostic model OOF -> diagnosis,129,23,106,0.631665299425759,0.497128794093519,0.755527071369975,Higher score predicts class 1,2000,patient,Diagnosis
+GSE236713,Same diagnostic OOF score -> mortality,124,94,30,0.538297872340426,0.425895390070922,0.657774822695035,Higher score predicts class 1,2000,patient,Mortality within Sepsis
+GSE63042,Same diagnostic OOF score -> mortality,106,78,28,0.461996336996337,0.330620421245421,0.595238095238095,Higher score predicts class 1,2000,patient,Mortality within Sepsis
